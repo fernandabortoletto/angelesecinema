@@ -1,0 +1,94 @@
+.meus-filmes {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    height: 60vh;
+    margin: 40px auto;
+}
+
+.meus-filmes span {
+    font-size: 20px;
+}
+
+.meus-filmes ul {
+    width: 700px;
+}
+
+.meus-filmes ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.meus-filmes div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meus-filmes a {
+    text-decoration: none;
+    background-color: #ff6600;
+    border: 1px solid #ff6600;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    border-radius: 25px;
+    margin-right: 20px;
+    font-weight: 500;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.meus-filmes a:hover {
+  background-color: transparent;
+  border: 1px solid #ff6600;
+}
+
+.meus-filmes button {
+    background-color: transparent;
+    border: none;
+    color: #ff6600;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+@media (max-width: 1024px){
+    .meus-filmes {
+        height: 62vh;
+    }
+
+
+    .meus-filmes h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .meus-filmes ul {
+        width: 300px;
+        margin: 0 20px;
+    }
+
+    .meus-filmes h1 {
+        font-size: 20px;
+    }
+
+    .meus-filmes span {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .meus-filmes button {
+        font-size: 12px;
+    }
+
+    .meus-filmes a {
+        font-size: 12px;
+        width: 100px;
+    }
+}

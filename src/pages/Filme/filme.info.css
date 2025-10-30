@@ -1,0 +1,157 @@
+.filme-info {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.filme-info img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.area-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    max-width: 450px;
+}
+
+.area-conteudo h1 {
+    font-size: 28px;
+    font-weight: 600px;
+    margin-bottom: 50px;
+}
+
+.area-conteudo span {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.area-conteudo strong {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.area-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.area-buttons button {
+background-color: #ff6600; 
+  color: white;
+  border: 1px solid #ff6600;
+  border-radius: 25px; 
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s;
+  
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none; 
+}
+
+.area-buttons button:hover {
+    background-color: transparent;
+}
+
+.area-buttons a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .filme-info {
+        gap: 20px;
+        flex-direction: column;
+        max-width: 800px;
+        padding: 15px;
+        margin: 30px auto;
+    }
+
+    .filme-info img {
+        width: 600px;
+        height: 450px;
+    }
+
+    .area-conteudo {
+        text-align: center;
+        max-width: 550px;
+        align-items: center;
+    }
+
+    .area-conteudo h1 {
+        margin-bottom: 10px;
+        font-size: 32px;
+    }
+
+    .area-conteudo span {
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .area-conteudo strong {
+        font-size: 18px;
+    }
+
+    .area-buttons button {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .filme-info {
+        flex-direction: column;
+        gap: 30px;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .filme-info img {
+        width: 90%;
+        height: auto;
+        min-height: 400px;
+        max-width: 350px;
+    }
+
+    .area-conteudo {
+        max-width: 80%;
+    }
+
+    .area-conteudo h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .area-conteudo span {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .area-conteudo strong {
+        font-size: 16px;
+    }
+
+    .area-buttons button {
+        font-size: 16px;
+    }
+}
