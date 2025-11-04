@@ -46,13 +46,13 @@ function Home(){
                         <article key={filme.id}>
                             <img src={`https://image.tmdb.org/t/p/original/${filme.poster_path}`} alt={filme.title}/>
                             <strong>{filme.title}</strong>
+                            <p>Data de Lançamento: {filme.release_date}</p>
                             <div className="details">
                                 <Link to={`/filme/${filme.id}`}>Detalhes</Link>
                                 <button className="trailer" ><a target="blank" rel="external" href={`https://youtube.com/results?search_query=${filme.title} Trailer`}>
                                     <FaFilm />
                                 </a>
                                 </button>
-                                
                             </div>
                         </article>
                     )

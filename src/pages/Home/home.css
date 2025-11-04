@@ -32,6 +32,13 @@
   font-size: 1.3rem;
 }
 
+.lista-filmes p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  font-style: italic;
+  margin-top: 10px;
+}
+
 .lista-filmes .details {
   display: flex;
   margin-top: 20px;

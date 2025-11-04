@@ -74,6 +74,7 @@ function Filme(){
 
             <div className="area-conteudo">
                 <h1>{filme.title}</h1>
+                <p>Data de Lançamento: {filme.release_date}</p>
                 <span>{filme.overview}</span>
                 <strong>Avaliação: {filme.vote_average}/10</strong>
                 <div className="area-buttons">
